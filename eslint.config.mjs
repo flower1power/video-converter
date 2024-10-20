@@ -3,7 +3,7 @@ import prettier from 'prettier';
 
 export default [
   {
-    files: ['*.js'],
+    files: ['*.js', '*.ts'],
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
